@@ -1,5 +1,9 @@
 import { MouseEventHandler } from 'react';
 
+export interface HomeProps {
+  searchParams: FilterProps;
+}
+
 export interface CustomButtonProps {
   isDisabled?: boolean;
   btnType?: 'button' | 'submit';
